@@ -42,3 +42,6 @@ yarn-debug.log*
 
 # vim files
 *.swp
+
+# .DS_Store
+.DS_Store
