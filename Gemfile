@@ -25,6 +25,8 @@ gem 'jbuilder', '~> 2.7'
 gem 'haml-rails'
 # devise for authentication
 gem 'devise'
+# react for rails
+gem 'react-rails'
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
