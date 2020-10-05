@@ -1,5 +1,20 @@
-%div.jumbotron
+%div.jumbotron.col-12
   %h1 WaterLevel
   %p.lead
-    This is an application for having control over the level of water
-    in your tank
+    An application for having control over the level of water in your tank,
+    in a way that will give you the confidence on when, should you refill
+    your tank, and, at the same time, you'll be able to spot possible
+    unnecessary uses of water.
+  = link_to 'Signup', '#', class: 'btn btn-lg btn-primary'
+
+%div.my-4.col-12
+  %h2 How to use this app?
+  %p
+    The use of this application is simple, after signing up, go to
+    your dashboard, measure the level of water in your tank
+    and save the data using the application, statistics on the
+    data being saved are supplied automatically in the dashboard,
+    this way you would know how to refill the tank of water in a
+    way that is consistent.
+%div.my-4.col-12.col-md-6.offset-md-3
+  %iframe#video-instructions{src:"https://www.youtube.com/embed/-qNSXK7s7_w", frameborder: "0", allow: "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture", allowfullscreen: true}
